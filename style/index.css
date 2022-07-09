@@ -1,0 +1,65 @@
+#logo {
+    background-color: #F2EFEA;
+    width: 40%;
+    z-index: 5;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    top: 0;
+    left:0;
+    /* border: 2px solid red; */
+}
+
+#hamburger, #nav-right, #nav-box, .wrapper {
+    z-index: 10;
+}
+#display-left {
+    background-color: #F2EFEA;
+    overflow-y: scroll;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 40px;
+}
+
+.section {
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.section p {
+    font-size: 0.7em;
+    padding: 0;
+    margin: 0;
+}
+#display-right {
+    background-color: rgba(0, 0, 0, 0.887);
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* used help (for scrolling) from https://stackoverflow.com/questions/51263115/split-screen-containers-with-scrolling */
+.wrapper {
+    width: 40%;
+    height: 100vh;
+    background-color: #F2EFEA;
+    font-size: 30px;
+}
+
+#display-right, .wrapper {
+    float: left;
+}
+
+.wrapper{
+    display: flex;
+}
+
+

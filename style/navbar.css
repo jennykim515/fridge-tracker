@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    background-color: #F2EFEA;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#hamburger {
+    height: 50px;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+}
+#nav-box {
+    background-color: rgba(0, 0, 0, 0.887);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    z-index: 10;
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    width: 150px;
+}
+#logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding-right: 25px;
+}
+
+
+#links {
+    display: block;
+    position: absolute;
+}
+
+.hidden {
+   visibility:hidden;
+}
+
+#navbar > a {
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 2px 0px;
+    color: black;
+}
+
+#nav-box a {
+    text-decoration: none;
+    font-size: 1.3em;
+    padding: 3px 0px;
+    color: white;
+    z-index: 10;
+    display: block;
+}
+
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.nav-space {
+    height: 90px;
+}
+
+#extra-space {
+    height:90px;
+}
+
+footer {
+    background-color: #F2EFEA;
+    border: 2px solid rgb(238, 116, 116);
+    text-align: center;
+    padding: 3px;
+    width: 100%;
+}
+
+
+@media (max-width: 800px) {
+    #logo {
+        display: none;
+    }
+}
